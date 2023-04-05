@@ -1,55 +1,54 @@
+const webpack = require('webpack');
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-module.exports = {
-  entry: './src/index.js',
+const config = {
+  entry: [
+    'react-hot-loader/patch',
+    './src/index.js'
+  ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
-  resolve: {
-    extensions: ['.js', '.jsx']
-  },
-  mode: 'development',
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        }
+        use: 'babel-loader',
+        exclude: /node_modules/
       },
       {
-        test: /\.html$/,
-        use: [
-          { loader: 'html-loader' }
-        ]
-      },
-      {
-        test: /\.s[ac]ss$/,
+        test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader',
-          'sass-loader'
+          'css-loader'
         ]
-      },
-      
+      }
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: './public/index.html',
-      filename: './index.html'
+    new CopyPlugin({
+      patterns: [{ from: 'src/index.html' }],
     }),
-    new MiniCssExtractPlugin({
-      filename: '[name].css'
-    })
+    new HtmlWebpackPlugin({
+      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html><head><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
+      filename: 'index.html',
+    }),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      openAnalyzer: false,
+    }),
+    new CleanWebpackPlugin()
   ],
   devServer: {
-    static: { directory: path.join(__dirname, 'dist'), },
-    compress: true,
-    port: 3006
+    'static': {
+      directory: './dist'
+    }
   }
-}
+};
+
+module.exports = config;

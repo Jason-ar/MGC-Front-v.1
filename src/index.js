@@ -1,6 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
-import './styles/global.scss';
+import ReactDOM from 'react-dom/client';
+import { App } from './Routes/App';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import './styles/global.scss';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+//ReactDOM.render(<App />, document.getElementById('app'));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);
