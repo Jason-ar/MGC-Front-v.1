@@ -1,5 +1,7 @@
 import React from 'react';
-import { Header } from '../components/Header';
+import { Header } from '../Components/Header';
+//let obj = { a: '1' }
+//expect(obj).toEqual({ a: '1' })';
 
 const Layout = ({ children }) => {
     return (

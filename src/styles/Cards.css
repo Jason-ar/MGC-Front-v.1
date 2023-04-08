@@ -1,0 +1,22 @@
+.card {
+    width: min-max(20vh, 4vh) !important;
+    height: min-content;
+    margin: 4px;
+}
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.2) !important;
+    transition: all 0.3s linear;
+}
+
+.img-container {
+    overflow: hidden;
+}
+.card-img-top {
+    transition: all 0.2s ease-in-out;
+}
+.card-img-top:hover {
+    transform: scale(1.4);
+}
+.card-text {
+    margin: 0;
+}

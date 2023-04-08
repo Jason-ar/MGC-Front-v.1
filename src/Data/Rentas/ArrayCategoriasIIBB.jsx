@@ -1,0 +1,95 @@
+//import React from 'react';
+
+
+const ArrayIIBB = [
+    {
+        id: 1,
+        categoria: 'A',
+        ingresosBrutos: '999.657',
+        sinDescuento: '2.083',
+        descuento: '624',
+        conDescuento: '1.459',
+    },
+    {
+        id: 2,
+        categoria: 'B',
+        ingresosBrutos: '1.485.976',
+        sinDescuento: '3.096',
+        descuento: '928',
+        conDescuento: '2.168',
+    },
+    {
+        id: 3,
+        categoria: 'C',
+        ingresosBrutos: '2.080.367',
+        sinDescuento: '4.334',
+        descuento: '1.300',
+        conDescuento: '3.034',
+    },
+    {
+        id: 4,
+        categoria: 'D',
+        ingresosBrutos: '2.583.720',
+        sinDescuento: '5.383',
+        descuento: '1.614',
+        conDescuento: '3.769',
+    },
+    {
+        id: 5,
+        categoria: 'E',
+        ingresosBrutos: '3.042.435',
+        sinDescuento: '6.338',
+        descuento: '1.901',
+        conDescuento: '4.437',
+    },
+    {
+        id: 6,
+        categoria: 'F',
+        ingresosBrutos: '3.803.043,82',
+        sinDescuento: '7.923',
+        descuento: '2.376',
+        conDescuento: '5.547',
+    },
+    {
+        id: 7,
+        categoria: 'G',
+        ingresosBrutos: '$999.999,23',
+        sinDescuento: '1.350',
+        descuento: '20 de cada mes',
+        conDescuento: '1.090',
+    },
+    {
+        id: 8,
+        categoria: 'H',
+        ingresosBrutos: '5.650.236',
+        sinDescuento: '11.771',
+        descuento: '3.531',
+        conDescuento: '8.240',
+    },
+    {
+        id: 9,
+        categoria: 'I',
+        ingresosBrutos: '6.323.918',
+        sinDescuento: '13.175',
+        descuento: '3.952',
+        conDescuento: '9.223',
+    },
+    {
+        id: 10,
+        categoria: 'J',
+        ingresosBrutos: '7.247.514',
+        sinDescuento: '15.099',
+        descuento: '4.529',
+        conDescuento: '10.570',
+    },
+    {
+        id: 11,
+        categoria: 'K',
+        ingresosBrutos: '8.047.211',
+        sinDescuento: '16.700',
+        descuento: '5.031',
+        conDescuento: '11.727',
+    },
+]
+
+export { ArrayIIBB };

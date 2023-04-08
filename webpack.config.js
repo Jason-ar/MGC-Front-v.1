@@ -19,7 +19,7 @@ module.exports = {
       '@styles': path.resolve(__dirname, 'src/styles/')
     }
   },
-  mode: 'production',
+  
   module: {
     rules: [
       {
@@ -42,7 +42,20 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
-      }
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        /*use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outoutPath: 'images',
+            },
+          },
+        ],*/
+      },
     ]
   },
   plugins: [
@@ -61,5 +74,6 @@ module.exports = {
       new CssMinimizerPlugin(),
       new TerserPlugin(),
     ]
-  }
+  },
+  mode: 'production',
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { CardDescuentos } from "../../components/CardDescuentos";
+import { CardDescuentos } from "../..components/";
 //import { Card } from '../components/Card';  
 import { DescuentosCards } from "../containers/DescuentosCards";
 
