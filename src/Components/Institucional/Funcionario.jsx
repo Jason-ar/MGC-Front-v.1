@@ -5,11 +5,11 @@ import PropTypes from 'prop-types';
 //CARD NORMAL DEKSTOP
 function CardFuncionario({nombre, imageSource, cargo, telefono, lugar, formacion, reseña }) {
   return (
-    <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp">
+    <div className="card text-center text-dark rounded-20 animate__animated animate__fadeInUp">
       <div className="img-container">
           <img src={imageSource} alt="Foto profesor" className="card-img-top"/>
       </div>
-      <div className="card-body text-light p-0 m-0 lh-1">
+      <div className="card-body text-dark p-0 m-0 lh-1">
           <h7 className="card-title p-0 m-0 lh-1">{nombre}</h7>
           <p className="card-text text-secondary">{formacion}</p>
           <p className="card-text">{lugar}</p>

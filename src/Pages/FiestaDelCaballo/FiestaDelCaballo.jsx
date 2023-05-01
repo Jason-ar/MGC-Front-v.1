@@ -1,12 +1,12 @@
 import React from "react"; 
 //import { TurismoHospedajesCardsContainer } from "../../templates/TurismoHospedajesCardsContainer";
 
-import { PayadoresModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
-import { NocheDeFolkloreModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
-import { ArtistasModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
+//import { PayadoresModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
+//import { NocheDeFolkloreModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
+//import { ArtistasModal } from '../../Templates/FiestaDelCaballo/ArtistasModal';
 
 import { BingoModal } from '../../Templates/FiestaDelCaballo/ActividadesModal';
-import { DesfileModal } from '../../Templates/FiestaDelCaballo/ActividadesModal';
+//import { DesfileModal } from '../../Templates/FiestaDelCaballo/ActividadesModal';
 
 import { AuspiciantesModal } from '../../Templates/FiestaDelCaballo/ModalStandsAuspiciantes';
 import { StandsModal } from '../../Templates/FiestaDelCaballo/ModalStandsAuspiciantes';
@@ -18,15 +18,15 @@ import { DomingoFlayerModal } from '../../Templates/FiestaDelCaballo/FlayersModa
 
 const FiestaDelCaballo = () => {
     return(
-        <div>
-            <h2>Fiesta del Caballo</h2>
-            <PayadoresModal />;
+        <div className="container text-center justify-content-center align-items-center h-100">
+            <h1>Fiesta Provincial del Caballo</h1>
+            {/*<PayadoresModal />;
             <NocheDeFolkloreModal />;
             <DesfileModal />;
-            <ArtistasModal />;
+            <ArtistasModal />;*/}
             <BingoModal />;
             <AuspiciantesModal />;
-            <StandsModal />;
+    <StandsModal />;
             <ViernesFlayerModal />;
             <SabadoFlayerModal />;
             <BaileFlayerModal />;

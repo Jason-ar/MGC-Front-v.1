@@ -3,7 +3,7 @@ import { CardEvento } from "../../Components/Cultura/Evento";
 //import { Card } from '@components/Card';  
 import { EventosArray } from "../../Data/Cultura/ArrayEventos";
 
-const EventosContainer = () => {
+const EventosCulturalesContainer = () => {
     return(
         <div className="container d-flex justify-content-center align-items-center h-100">
             <div className="row">
@@ -19,4 +19,4 @@ const EventosContainer = () => {
     )
 }
 
-export { EventosContainer };
+export { EventosCulturalesContainer };

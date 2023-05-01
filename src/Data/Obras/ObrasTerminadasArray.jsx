@@ -1,0 +1,67 @@
+//import React from 'react';
+import Gimnasia from '../../Assets/img/talleres-deportes/1gimnasia.jpg';
+
+const ObrasTerminadasArray = [
+    {
+        id: 1,
+        image: Gimnasia,
+        obra: 'Edificio Municipal',
+        ubicacion: 'Av. Roca Acceso Norte',
+        resumen: 'Construcción de nuevo edificio.',
+        año: 'año',
+        inicio: 'inicio',
+        fin: 'fin',
+        link: 'link',
+        descripcion: 'Descripción de obra.',
+    },   
+    {
+        id: 1,
+        image: Gimnasia,
+        obra: 'Ampliacion red de gas',
+        ubicacion: 'Construcción de nueva sala velatoria, más grande y con más capacidad.',
+        resumen: 'Construcción de nuevo edificio.',
+        año: 'año',
+        inicio: 'inicio',
+        fin: 'fin',
+        link: 'link',
+        descripcion: 'Descripción de obra.',
+    },  
+    {
+        id: 1,
+        image: Gimnasia,
+        obra: 'Comisaria de la Mujer',
+        ubicacion: 'Av. Roca Acceso Norte',
+        resumen: 'Restauración y reacondicionamiento del edificio del antiguo juzgado de paz.',
+        año: 'año',
+        inicio: 'inicio',
+        fin: 'fin',
+        link: 'link',
+        descripcion: 'Descripción de obra.',
+    },  
+    {
+        id: 1,
+        image: Gimnasia,
+        obra: 'Playón deprtivo',
+        ubicacion: 'Av. Roca',
+        resumen: 'Reconstrucción a nuevo del playon deportivo, con nuevo equipamiento e iluminacion.',
+        año: 'año',
+        inicio: 'inicio',
+        fin: 'fin',
+        link: 'link',
+        descripcion: 'Descripción de obra.',
+    }, 
+    {
+        id: 1,
+        image: Gimnasia,
+        obra: 'Plaza Manuel Belgrano',
+        ubicacion: 'Av. Roca',
+        resumen: 'Reparacion de veredas, bancas y coolocación de nuevo equipamiento.',
+        año: 'año',
+        inicio: 'inicio',
+        fin: 'fin',
+        link: 'link',
+        descripcion: 'Descripción de obra.',
+    }, 
+]
+
+export { ObrasTerminadasArray };

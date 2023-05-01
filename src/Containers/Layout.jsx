@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header } from '../Components/Header';
+import { FooterCard } from '../Components/Global/Footer';
+import { Header } from '../Components/Global/Header';
 //let obj = { a: '1' }
 //expect(obj).toEqual({ a: '1' })';
 
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
         <div className='Layout'>
             <Header />
             {children}
+            <FooterCard />
         </div>
     );
 }

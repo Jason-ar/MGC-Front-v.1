@@ -1,11 +1,11 @@
 //import React from 'react';
-import roca from '../../Assets/img/hospedajes/roca1.jpg';
+import Imagen from '../../Assets/img/FiestaDelCaballo/Escenario/LluviaBaile1.jpg';
 
 
 const EventosArray = [
     {
         id: 1,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',
@@ -15,7 +15,7 @@ const EventosArray = [
     },
     {
         id: 2,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',
@@ -25,7 +25,7 @@ const EventosArray = [
     },
     {
         id: 3,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',
@@ -35,7 +35,7 @@ const EventosArray = [
     },
     {
         id: 4,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',
@@ -45,7 +45,7 @@ const EventosArray = [
     },
     {
         id: 5,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',
@@ -55,7 +55,7 @@ const EventosArray = [
     },
     {
         id: 6,
-        image: roca,
+        image: Imagen,
         area: 'Deportes',
         evento: 'Fiesta del Caballo',
         dia: '17, 18 y 19 de Febrero',

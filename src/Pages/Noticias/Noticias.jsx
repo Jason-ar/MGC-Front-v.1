@@ -1,11 +1,14 @@
 import React from 'react';
-//import { ConductoresCardsContainer } from '../templates/Noticias/ConductoresCardsContainer';
+import { VideoContainer } from '../../Components/Global/Video';
+import { HeaderAreaContainer } from '../../Containers/Noticias/HeaderArea';
 
 const Noticias = () => {
     return (
-        <div>
+        <div className="container text-center justify-content-center align-items-center h-100">
+            <HeaderAreaContainer />
             <h1>Noticias de la Municipalidad de Gobernador Costa</h1>
             <p> </p>
+            <VideoContainer />
         </div>
     );
 }

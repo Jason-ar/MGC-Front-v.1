@@ -1,0 +1,86 @@
+//import React from 'react';
+import Gimnasia from '../../Assets/img/ClubDeDia/ClubDeDiaTemp.jpg';
+
+
+const ArrayConcejales = [
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Gerardo Damian Pailacura',
+        bloque: 'Partido Vecinal',
+        puesto: '1° Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Ana Milena Llancaman',
+        bloque: 'Partido Vecinal',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Julio Arrechea',
+        bloque: 'Partido Vecinal',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Damian Aillapan',
+        bloque: 'Partido Vecinal',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Maglenis Ivañez',
+        bloque: 'MOJUCO',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Victoria Ferreyra',
+        bloque: 'MOJUCO',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+    {
+        id: 1,
+        image: Gimnasia,
+        concejal: 'Nombre Sandoval',
+        bloque: 'MOJUCO',
+        puesto: 'Concejal',
+        tipo: 'Titular',
+        inicio: '2019',
+        telefono: '2945 ',
+        link: '#',
+    },
+
+]
+
+export { ArrayConcejales };

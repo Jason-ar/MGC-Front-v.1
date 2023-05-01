@@ -7,7 +7,7 @@ import { ArrayAcrobacias, ArrayAtletismo, ArrayBamp, ArrayBasquet, ArrayBoxeo, A
 ///Acrobacias
 const AcrobaciasContainer = () => {
     return(
-        <div className="container d-flex justify-content-center align-items-center h-100">
+        <div className="container text-center d-flex justify-content-center align-items-center h-100">
             <div className="row">
                 {
                     ArrayAcrobacias.map(card => (

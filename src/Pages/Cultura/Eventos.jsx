@@ -1,10 +1,11 @@
 import React from "react"; 
-//import { EventosCardsContainer } from "../templates/EventosCardsContainer";
+//import { EventosCulturalesContainer } from "../../Containers/Cultura/Eventos";
 
 const Eventos = () => {
     return(
-        <div>
-            <h1>Next EVENTS.</h1>
+        <div className="container text-center justify-content-center align-items-center h-100">
+            <h1>Próximos Eventos</h1>
+
         </div>
     )
 }

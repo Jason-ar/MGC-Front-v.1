@@ -1,11 +1,19 @@
 import React from 'react';
-import { HospedajesContainer } from '../../Containers/Turismo/Hospedajes';
+import { RelacionadosExternos, RelacionadosInternos } from '../../Containers/Turismo/RelacionadosContainer';
+import { ServiciosTurismoContainer } from '../../Containers/Turismo/TurismoContainer';
+
 
 const Turismo = () => {
     return (
-        <div>
-            <h1>Turismo</h1>
-        <HospedajesContainer />
+        <div className="container text-center justify-content-center align-items-center h-100">
+            <h1>Dirección de Turismo</h1>
+            <br></br>
+             <ServiciosTurismoContainer />
+             <br></br>
+            <h3>Relacionado</h3>
+            <RelacionadosInternos />
+            <RelacionadosExternos />
+           
         </div>
     );
 }

@@ -4,7 +4,7 @@ import {
 
 const Escuelas = () => {
     return (
-        <div className="text-center ">
+        <div className="container text-center justify-content-center align-items-center h-100">
             <h2>Escuelas Deportivas</h2>
             <div className="row g-0">
                 <div className="col"><ModalDeportesAcrobacias /></div>

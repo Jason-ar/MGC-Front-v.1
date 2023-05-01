@@ -6,11 +6,11 @@ import PropTypes from 'prop-types';
 //CARD NORMAL
 function CardOrdenDelDia({nombre, imageSource, dia, hora, lugar, rubroartista, realizado }) {
   return (
-    <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp">
+    <div className="card text-center text-dark rounded-20 animate__animated animate__fadeInUp">
       <div className="img-container">
           <img src={imageSource} alt="Foto hospedaje" className="card-img-top"/>
       </div>
-      <div className="card-body text-light p-0 m-0">
+      <div className="card-body text-dark p-0 m-0">
           {/*<p className="card-text">{dia} {hora}</p>
           <p className="card-text text-secondary">{lugar}</p>
           <a href="#!" className="btn btn-outline-primary rounded-25">Ver más</a>*/}

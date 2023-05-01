@@ -1,0 +1,88 @@
+//import React from 'react';
+
+
+const AlquileresArray = [
+    {
+        id: 1,
+        salon: 'SUM Raúl Torres',
+        usos: '2.083',
+        capacidad: '250',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 2,
+        salon: 'Salon Comunitario Rodolfo Ruiz',
+        usos: '2.083',
+        capacidad: '100',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 3,
+        salon: 'Quincho Municipal',
+        usos: '2.083',
+        capacidad: '70',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 4,
+        salon: 'Sala Velatoria',
+        usos: '2.083',
+        capacidad: '80',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 5,
+        salon: 'A',
+        usos: '2.083',
+        capacidad: '',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 6,
+        salon: 'A',
+        usos: '2.083',
+        capacidad: '',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 7,
+        salon: 'A',
+        usos: '2.083',
+        capacidad: '',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+    {
+        id: 8,
+        salon: 'A',
+        usos: '2.083',
+        capacidad: '',
+        tiempo: '624',
+        valor: '999.657',
+        image: '',
+        link: '#',
+    },
+  
+]
+
+export { AlquileresArray };

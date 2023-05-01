@@ -3,7 +3,7 @@ import React from 'react';
 
 const Gestion = () => {
     return (
-        <div>
+        <div className="container text-center justify-content-center align-items-center h-100">
             <h1>Gestion Miguel Gómez</h1>
             <p>2945 </p>
         </div>

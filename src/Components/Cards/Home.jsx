@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../styles/cards.css';
+//import '../styles/cards.css';
 
 function CardHome({area, imageSource, descripcion, link}) {
   return (

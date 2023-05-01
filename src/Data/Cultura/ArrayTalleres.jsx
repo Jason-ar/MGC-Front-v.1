@@ -1,5 +1,5 @@
 //import React from 'react';
-import Gimnasia from '../../Assets/img/hospedajes/roca1.jpg';
+import Gimnasia from '../../Assets/img/FiestaDelCaballo/Escenario/AmanecerTropical1.jpg';
 
 
 const ArrayTalleres = [

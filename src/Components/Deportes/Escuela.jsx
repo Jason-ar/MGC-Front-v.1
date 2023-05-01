@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 function CardEscuela({disciplina, imageSource, area, turno, dias, horario, lugar, rama, edad, profesor, contacto, inicio, finalizacion}) {
   return (
-    <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp">
+    <div className="card text-center text-dark rounded-20 animate__animated animate__fadeInUp">
       <div className="img-container">
           <img src={imageSource} alt="Foto hospedaje" className="card-img-top"/>
       </div>
-      <div className="card-body text-light m-0 p-1">
+      <div className="card-body text-dark m-0 p-1">
           <h4 className="card-title m-0">{disciplina}</h4>
           <p className="card-text">{edad}</p>
           <p className="card-text m-0">{rama}</p>
