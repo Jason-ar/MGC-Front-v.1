@@ -1,7 +1,6 @@
 import React from 'react';
-import { RelacionadosExternos, RelacionadosInternos } from '../../Containers/Turismo/RelacionadosContainer';
-import { ServiciosTurismoContainer } from '../../Containers/Turismo/TurismoContainer';
-
+import { RelacionadosExternos, RelacionadosInternos } from '../../Containers/Turismo/Turismo/RelacionadosContainer';
+import { ServiciosTurismoContainer } from '../../Containers/Turismo/Turismo/TurismoContainer';
 
 const Turismo = () => {
     return (
@@ -16,6 +15,6 @@ const Turismo = () => {
            
         </div>
     );
-}
+};
 
 export { Turismo };

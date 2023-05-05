@@ -52,7 +52,7 @@ import FutbolCacarita12a13 from '../../Assets/img/talleres-deportes/futbol-infan
 ///MODAL ESCUELAS Acrobacias
 const ModalDeportesAcrobacias = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#PayadoresModal">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -94,7 +94,7 @@ const ModalDeportesAcrobacias = () => {
 ///MODAL ESCUELAS Atletismo
 const ModalDeportesAtletismo = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesAtletismo">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -136,7 +136,7 @@ const ModalDeportesAtletismo = () => {
 ///MODAL ESCUELAS Bamp
 const ModalDeportesBamp = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesBamp">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -178,7 +178,7 @@ const ModalDeportesBamp = () => {
 ///MODAL ESCUELAS Basquet
 const ModalDeportesBasquet = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesBasquet">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -220,7 +220,7 @@ const ModalDeportesBasquet = () => {
 ///MODAL ESCUELAS Boxeo
 const ModalDeportesBoxeo = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesBoxeo">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -262,7 +262,7 @@ const ModalDeportesBoxeo = () => {
 ///MODAL ESCUELAS FUTBOL
 const ModalDeportesFutbol = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesFutbol">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -304,7 +304,7 @@ const ModalDeportesFutbol = () => {
 ///MODAL ESCUELAS Gimnasia
 const ModalDeportesGimnasia = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesGimnasia">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -346,7 +346,7 @@ const ModalDeportesGimnasia = () => {
 ///MODAL ESCUELAS Handball
 const ModalDeportesHandball = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesHandball">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -388,7 +388,7 @@ const ModalDeportesHandball = () => {
 ///MODAL ESCUELAS Hockey
 const ModalDeportesHockey = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesHockey">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -430,7 +430,7 @@ const ModalDeportesHockey = () => {
 ///MODAL ESCUELAS Karate
 const ModalDeportesKarate = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesKarate">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -472,7 +472,7 @@ const ModalDeportesKarate = () => {
 ///MODAL ESCUELAS Newcom
 const ModalDeportesNewcom = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesNewcom">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -514,7 +514,7 @@ const ModalDeportesNewcom = () => {
 ///MODAL ESCUELAS Tenis
 const ModalDeportesTenis = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesTenis">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">
@@ -556,7 +556,7 @@ const ModalDeportesTenis = () => {
 ///MODAL ESCUELAS VOLEY
 const ModalDeportesVoley = () => {
     return (
-        <div>
+        <div className="col-xl-3 col-lg-3 col-sm-4 col-12 g-1">
             <button type="button" className="btn btn-primary m-0 p-0" data-bs-toggle="modal" data-bs-target="#ModalDeportesVoley">
                 <div className="card text-center bg-dark rounded-20 animate__animated animate__fadeInUp m-0 p-0">
                     <div className="img-container">

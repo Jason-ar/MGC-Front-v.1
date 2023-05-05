@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { RelacionadosExternos, RelacionadosInternos } from '../../Containers/Rentas/Publicidad/RelacionadosContainer';
 
 const PublicidadViaPublica = () => {
     return (
@@ -9,11 +10,10 @@ const PublicidadViaPublica = () => {
           
             <h2>Pancartas y carteleria temporal</h2>
 
-            <div className="container text-center justify-content-center align-items-center h-100">
-                <Button href="http://www.dgrchubut.gov.ar/" target="_blank" >Rentas Chubut</Button>
-                <Button href="https://www.afip.gob.ar/monotributo/categorias.asp" target="_blank" >Categorias Monotributo</Button>
-                <Button href="https://www.argentina.gob.ar/ingresosbrutos" target="_blank" >Ingresos Brutos</Button>
-            </div>
+            <br></br>
+            <RelacionadosInternos />
+            <RelacionadosExternos />
+
         </div>
     );
 }

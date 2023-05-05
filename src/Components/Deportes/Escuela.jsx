@@ -6,15 +6,15 @@ function CardEscuela({disciplina, imageSource, area, turno, dias, horario, lugar
   return (
     <div className="card text-center text-dark rounded-20 animate__animated animate__fadeInUp">
       <div className="img-container">
-          <img src={imageSource} alt="Foto hospedaje" className="card-img-top"/>
+          <img src={imageSource} alt="Foto hospedaje" className="card-img-top m-0 p-0"/>
       </div>
       <div className="card-body text-dark m-0 p-1">
-          <h4 className="card-title m-0">{disciplina}</h4>
-          <p className="card-text">{edad}</p>
-          <p className="card-text m-0">{rama}</p>
-          <p className="card-text">{dias} {horario}</p>
-          <p className="card-text text-secondary">{lugar}</p>
-          <p className="card-text text-secondary">{profesor}</p>
+          <h4 className="card-title m-0 p-0">{disciplina}</h4>
+          <p className="card-text m-0 p-0">{edad}</p>
+          <p className="card-text m-0 p-0">{rama}</p>
+          <p className="card-text m-0 p-0">{dias} {horario}</p>
+          <p className="card-text text-secondarym-0 p-0">{lugar}</p>
+          <p className="card-text text-secondarym-0 p-0">{profesor}</p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxrwOCjjGOOAWumRr0AAHqyb_kI4oEENhPRoncdRCqVxZZjQ/viewform?usp=sf_link" className="btn btn-outline-primary rounded-pill btn-sm">Inscribirme</a>
           {/*<p className="card-text text-secondary">{contacto}</p>*/}
           {/*<p className="card-text text-secondary">{inicio}</p>*/}

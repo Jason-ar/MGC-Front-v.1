@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { RentasCard } from '../../Components/Rentas/RentasCard';
-import { RentasArray } from '../../Data/Rentas/RentasArray';
+import { RentasCard } from '../../../Components/Rentas/RentasCard';
+import { RentasArray } from '../../../Data/Rentas/RentasArray';
 
 const ServiciosRentasContainer = () => {
     return (

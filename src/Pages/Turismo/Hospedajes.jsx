@@ -1,6 +1,6 @@
 import React from "react"; 
 import { HospedajesContainer } from '../../Containers/Turismo/Hospedajes/Hospedajes';
-import { RelacionadosExternos, RelacionadosInternos } from "../../Containers/Turismo/RelacionadosContainer";
+import { RelacionadosExternos, RelacionadosInternos } from "../../Containers/Turismo/Hospedajes/RelacionadosContainer";
 //import { HospedajesContainer } from '@Containers/Turismo/Hospedajes.jsx';
 
 const Hospedajes = () => {

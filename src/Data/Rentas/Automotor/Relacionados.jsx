@@ -1,4 +1,4 @@
-//NOMBRE: 
+//NOMBRE: Patente
 const InternosArray = [
     {
         id: '1',
@@ -12,8 +12,8 @@ const InternosArray = [
     },
     {
         id: '1',
-        titulo: 'Rentas',
-        link: '/rentas',
+        titulo: 'IIBB',
+        link: '/rentas/ingresos-brutos',
     },
 ];
 
@@ -21,18 +21,18 @@ const InternosArray = [
 const ExternosArray = [
     {
         id: '1',
-        titulo: 'Rentas Chubut',
-        link: 'http://www.dgrchubut.gov.ar/',
+        titulo: 'Valores 2023',
+        link: 'https://www.dnrpa.gov.ar/valuacion/cons_valuacion.php?historial=no',
     },
     {
         id: '1',
-        titulo: 'Categorias Monotributo',
-        link: 'https://www.afip.gob.ar/monotributo/categorias.asp',
+        titulo: 'Valores historicos',
+        link: 'https://www.dnrpa.gov.ar/valuacion/valuaciones.php',
     },
     {
         id: '1',
-        titulo: 'Ingresos Brutos',
-        link: 'https://www.argentina.gob.ar/ingresosbrutos',
+        titulo: 'DNRPA',
+        link: 'https://www.dnrpa.gov.ar/portal_dnrpa/',
     },
 ];
 

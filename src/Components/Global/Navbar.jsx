@@ -36,10 +36,11 @@ const Navbarr = () => {
                                 <Link className="nav-link" to="/cultura">Cultura</Link>
                                 <NavDropdown.Divider />
                                 <Link className="nav-link" to="/cultura/talleres">Talleres</Link>
-                                <Link className="nav-link" to="/cultura/cine">Cine</Link>
+                                <Link className="nav-link" to="/cine">Cine</Link>
                                 <Link className="nav-link" to="/cultura/eventos">Eventos</Link>
-                                <Link className="nav-link" to="/cultura/museo">Museo</Link>
-                                <Link className="nav-link" to="/cultura/punto-digital">Punto Digital</Link>
+                                <Link className="nav-link" to="/museo">Museo</Link>
+                                <Link className="nav-link" to="/punto-digital">Punto Digital</Link>
+                                <Link className="nav-link" to="/biblioteca-popular">Biblioteca</Link>
                             </NavDropdown>
                             <NavDropdown title="Social" id="basic-nav-dropdown">
                                 <Link className="nav-link" to="/social">Social</Link>

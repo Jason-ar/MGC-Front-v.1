@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import { InfraccionContainer } from '../../Containers/Transito/Infraccion';
 import { LegislacionContainer } from '../../Containers/Transito/Legislacion';
-import { HeaderAreaContainer } from '../../Containers/Turismo/HeaderArea';
+import { HeaderAreaContainer } from '../../Containers/Turismo/Turismo/HeaderArea';
 import { ContactosContainer } from '../../Containers/Transito/Contactos';
 import { MaximasEspecialesContainer, VelocidadesMaximasContainer } from '../../Containers/Transito/Velocidades';
 import { FAQRadarContainer } from '../../Containers/Transito/FAQRadarContainer';

@@ -1,11 +1,11 @@
 //import React from 'react';
-import Gimnasia from '../../Assets/img/ClubDeDia/ClubDeDiaTemp.jpg';
+import Imagen from '../../Assets/icon/mgc-icon-100px.png';
 
 
 const ArrayConcejales = [
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Gerardo Damian Pailacura',
         bloque: 'Partido Vecinal',
         puesto: '1° Concejal',
@@ -16,7 +16,7 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Ana Milena Llancaman',
         bloque: 'Partido Vecinal',
         puesto: 'Concejal',
@@ -27,7 +27,7 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Julio Arrechea',
         bloque: 'Partido Vecinal',
         puesto: 'Concejal',
@@ -38,8 +38,8 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
-        concejal: 'Damian Aillapan',
+        image: Imagen,
+        concejal: 'Damian Trafiñanco',
         bloque: 'Partido Vecinal',
         puesto: 'Concejal',
         tipo: 'Titular',
@@ -49,7 +49,7 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Maglenis Ivañez',
         bloque: 'MOJUCO',
         puesto: 'Concejal',
@@ -60,7 +60,7 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Victoria Ferreyra',
         bloque: 'MOJUCO',
         puesto: 'Concejal',
@@ -71,7 +71,7 @@ const ArrayConcejales = [
     },
     {
         id: 1,
-        image: Gimnasia,
+        image: Imagen,
         concejal: 'Nombre Sandoval',
         bloque: 'MOJUCO',
         puesto: 'Concejal',

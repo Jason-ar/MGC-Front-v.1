@@ -1,6 +1,6 @@
 import React from 'react';
-import { InternoCard, ExternoCard } from '../../Components/Global/RelacionadoCard';
-import { InternosArray, ExternosArray } from '../../Data/Turismo/RelacionadosArray';
+import { InternoCard, ExternoCard } from '../../../Components/Global/RelacionadoCard';
+import { InternosArray, ExternosArray } from '../../../Data/Rentas/Publicidad/Relacionados';
 
 const RelacionadosInternos = () => {
     return (

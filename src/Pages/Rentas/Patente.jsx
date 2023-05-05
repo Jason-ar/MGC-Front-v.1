@@ -1,21 +1,22 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-import { IIBBContainer } from '../../Containers/Rentas/IIBB/IIBBContainer';
-import { FAQContainer } from '../../Containers/Rentas/IIBB/FAQContainer';
+import { FAQContainer } from '../../Containers/Rentas/Automotor/FAQContainer';
+import { PatenteContainer } from '../../Containers/Rentas/Automotor/PatenteContainer';
+import { RelacionadosExternos, RelacionadosInternos } from '../../Containers/Rentas/Automotor/RelacionadosContainer';
+
 
 const PatenteAutomotriz = () => {
     return (
         <div className="container text-center justify-content-center align-items-center h-100">
             <h1>Patente automotriz</h1>
-            <h2>Categorias Ingresos Brutos 2023</h2>
-            <IIBBContainer />
-            <h2>Ayuda sobre Ingresos Brutos</h2>
+            <h2>Valores patentes 2023</h2>
+            <PatenteContainer />
+            <br></br>
+            <h2>Ayuda</h2>
             <FAQContainer />
-            <div className="container text-center justify-content-center align-items-center h-100">
-                <Button href="http://www.dgrchubut.gov.ar/" target="_blank" >Rentas Chubut</Button>
-                <Button href="https://www.afip.gob.ar/monotributo/categorias.asp" target="_blank" >Categorias Monotributo</Button>
-                <Button href="https://www.argentina.gob.ar/ingresosbrutos" target="_blank" >Ingresos Brutos</Button>
-            </div>
+            <br></br>
+            <h3>Relacionado</h3>
+            <RelacionadosInternos />
+            <RelacionadosExternos />
         </div>
     );
 }

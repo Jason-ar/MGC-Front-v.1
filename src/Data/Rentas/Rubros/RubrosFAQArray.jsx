@@ -2,32 +2,26 @@
 const RubrosFAQArray = [
     {
         id: 1,
-        pregunta: 'Que es un Descargo',
-        respuesta: 'Un descargo es una ...',
+        pregunta: 'Que es un Rurbo',
+        respuesta: 'Un Rubro comercial es una cotegoria comercial que incluye diversas actividades relacionadas o similares.',
         link: '#',
     },
     {
         id: 2,
-        pregunta: 'Quien puede hacer un Descargo?',
-        respuesta: 'Cualquier persona que haya sido notificada de haber cometido una infracción.',
+        pregunta: 'Como saber cual es mi rubro?',
+        respuesta: 'Debes elegir el rubro que más se acerque a la actividad que vas a realizar.',
         link: '#',
     },
     {
         id: 3,
-        pregunta: 'Tiene costo?',
-        respuesta: 'No, los descargos no tienen costo.',
+        pregunta: 'Titulo 3?',
+        respuesta: 'Parrafo 3',
         link: '#',
     },
     {
         id: 4,
-        pregunta: 'Como hago un descargo',
-        respuesta: 'Podes hacer un descargo de manera presencial, en el juzgado de faltas, o de forma remota mediante el formulario.',
-        link: '#',
-    },
-    {
-        id: 5,
-        pregunta: 'Ya hice el descargo ¿ y ahora?',
-        respuesta: 'Si ya hiciste el descargo, solo resta esperar su procesamiento y resolución. Este proceso suele demorar entre 1 a 2 dias habiles, según la cantidad de descargos recibidos.',
+        pregunta: 'Puedo cambiar de rubro?',
+        respuesta: 'Claro, si cambias de actividad comercial, podes elegir un nuevo rubro acorde a tu nueva actividad.',
         link: '#',
     },
 ];

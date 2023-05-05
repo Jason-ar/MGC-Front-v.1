@@ -1,8 +1,7 @@
 import React from 'react';
-import { DescuentosContainer } from '../../Containers/Rentas/DescuentosContainer';
-import { IIBBContainer } from '../../Containers/Rentas/IIBB/IIBBContainer';
-import { HeaderAreaContainer } from '../../Containers/Rentas/HeaderArea';
-import { ServiciosRentasContainer } from '../../Containers/Rentas/ServiciosRentas';
+import { DescuentosContainer } from '../../Containers/Rentas/Rentas/DescuentosContainer';
+import { HeaderAreaContainer } from '../../Containers/Rentas/Rentas/HeaderArea';
+import { ServiciosRentasContainer } from '../../Containers/Rentas/Rentas/ServiciosRentas';
 
 const Rentas = () => {
     return (

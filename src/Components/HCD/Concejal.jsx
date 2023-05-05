@@ -10,8 +10,8 @@ function CardConcejal({ concejal, image, puesto, telefono, bloque, inicio, tipo,
         <img src={image} alt="Foto profesor" className="card-img-top" />
       </div>
       <div className="card-body text-dark p-0 m-0 lh-1">
-        <h7 className="card-text text-secondary">{bloque}</h7>
         <h6 className="card-title p-0 m-1 lh-1">{concejal}</h6>
+        <h7 className="card-text text-secondary">{bloque}</h7>
         <p className="card-text fs-6 p-0 m-0">{puesto} {tipo}</p>
         <p className="card-text text-secondary p-0 m-0">{inicio}</p>
         {/*<a href={link} className="btn btn-outline-primary rounded-25">Ver más</a>*/}

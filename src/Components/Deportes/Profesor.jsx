@@ -12,8 +12,8 @@ function CardProfesor({nombre, image, talleres, telefono, formacion }) {
       <div className="card-body text-dark p-0 m-0 lh-1">
           <h7 className="card-title p-0 m-0 lh-1">{nombre}</h7>
           <p className="card-text fs-6 p-0 m-0">{formacion}</p>
-          <p className="card-text text-secondary">{talleres}</p>
-          <p className="card-text text-secondary">{telefono}</p>
+          <p className="card-text text-secondary m-0 p-0">{talleres}</p>
+          <p className="card-text text-secondary m-0 p-0">{telefono}</p>
           {/*<a href={link} className="btn btn-outline-primary rounded-25">Ver más</a>*/}
       </div>
     </div>

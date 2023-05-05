@@ -2,8 +2,8 @@
 const InternosArray = [
     {
         id: '1',
-        titulo: 'Habilitacion Comercial',
-        link: '/rentas/habilitacion-comercial',
+        titulo: 'Alquileres',
+        link: '/rentas/alquileres',
     },
     {
         id: '2',
@@ -12,8 +12,8 @@ const InternosArray = [
     },
     {
         id: '1',
-        titulo: 'Rentas',
-        link: '/rentas',
+        titulo: 'Ambiente',
+        link: '/ambiente',
     },
 ];
 

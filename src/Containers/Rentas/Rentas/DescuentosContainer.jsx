@@ -1,7 +1,7 @@
 import React from "react";
-import { CardDescuento } from "../../Components/Rentas/Descuento";
+import { CardDescuento } from "../../../Components/Rentas/Descuento";
 //import { Card } from '../components/Card';  
-import { ArrayDescuentos } from "../../Data/Rentas/ArrayDescuentos";
+import { ArrayDescuentos } from "../../../Data/Rentas/ArrayDescuentos";
 
 const DescuentosContainer = () => {
     return(

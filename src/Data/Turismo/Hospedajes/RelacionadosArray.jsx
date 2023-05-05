@@ -15,6 +15,11 @@ const InternosArray = [
         titulo: 'Tránsito',
         link: '/transito',
     },
+    {
+        id: '4',
+        titulo: 'Costa En Linea',
+        link: '/costa-online/negocios',
+    },
 ];
 
 const ExternosArray = [

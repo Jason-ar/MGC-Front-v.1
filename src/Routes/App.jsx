@@ -84,6 +84,7 @@ import { Gestion } from '../Pages/Gestion/Gestion';
 import { Actividades } from '../Pages/Turismo/Actividades';
 import { Contactos } from '../Pages/Institucional/Contactos';
 import { Camping } from '../Pages/Turismo/CampingMunicipal';
+import { Shops } from '../00CostaOnline/Pages/Shops';
 
 
 
@@ -139,7 +140,7 @@ const App = () => {
           <Route path='/rentas/alquileres' element={<Alquileres />} />;
           <Route path='/rentas/camion-atmosferico' element={<Atmosferico />} />;
           <Route path='/rentas/ambulantes' element={<VendedoresAmbulantes />} />;
-          <Route path='/rentas/patente-automotriz' element={<PatenteAutomotriz />} />;
+          <Route path='/rentas/automotor' element={<PatenteAutomotriz />} />;
           <Route path='/rentas/habilitacion-comercial' element={<HabilitacionComercial />} />;
           <Route path='/rentas/inmobiliario-urbano' element={< InmobiliarioUrbano/>} />;
           <Route path='/rentas/inmobiliario-rural' element={<InmobiliarioRural />} />;
@@ -164,6 +165,8 @@ const App = () => {
           <Route path='/noticias' element={<Noticias />} />;
           
           <Route path='*' element={<NotFound />} />
+
+          <Route path='/costa-online/negocios' element={<Shops />} />
         </Routes>
       </Layout>                                                                                                                                     
     </BrowserRouter>

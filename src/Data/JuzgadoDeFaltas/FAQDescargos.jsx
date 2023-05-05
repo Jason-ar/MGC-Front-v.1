@@ -3,7 +3,7 @@ const FAQDescargosArray = [
     {
         id: 1,
         pregunta: 'Que es un Descargo',
-        respuesta: 'Un descargo es una ...',
+        respuesta: 'Es tu argumentación de los hechos, justificando tu inocencia frente a la multa recibida.',
         link: '#',
     },
     {
@@ -27,7 +27,7 @@ const FAQDescargosArray = [
     {
         id: 5,
         pregunta: 'Ya hice el descargo ¿ y ahora?',
-        respuesta: 'Si ya hiciste el descargo, solo resta esperar su procesamiento y resolución. Este proceso suele demorar entre 1 a 2 dias habiles, según la cantidad de descargos recibidos.',
+        respuesta: 'Si ya hiciste el descargo, solo resta esperar su procesamiento y resolución. Este proceso suele demorar entre 2 a 5 dias habiles, según la cantidad de descargos recibidos.',
         link: '#',
     },
 ];

@@ -80,7 +80,7 @@ const RentasArray = [
         servicio: 'Patente Automotor',
         subtitulo: 'Desagote de pozos negros',
         resumen: '.',
-        link: '/rentas/patente-automotriz',
+        link: '/rentas/automotor',
     },  
     {
         id: 3,
